@@ -124,6 +124,39 @@
       display: flex;
       align-items: center;
     }
+    .social-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.social-btn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, opacity 0.3s;
+  text-decoration: none;
+}
+
+.social-btn:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+/* Warna brand */
+.instagram { background: #7b61ff; }
+.threads { background: #7b61ff; }
+.whatsapp { background: #7b61ff; }
+.linkedin { background: #7b61ff; }
+.pinterest { background: #7b61ff; }
+
   </style>
 </head>
 <body>
@@ -142,7 +175,13 @@
       <h1>Twotworial</h1>
       <p>Blogger | Drafter Furniture | SEO | Wordpress</p>
     </div>
-
+    <div class="social-buttons">
+    <a href="https://instagram.com/twotworial" class="social-btn instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://threads.com/@twotworial" class="social-btn threads" aria-label="Threads"><i class="fab fa-threads"></i></a>
+    <a href="https://wa.me/6285190092505" class="social-btn whatsapp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.linkedin.com/in/rismanto/" class="social-btn linkedin" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://id.pinterest.com/twotworial/" class="social-btn pinterest" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+    </div>
     <div class="links-section">
       <a href="#" class="link-card" aria-label="Visit Website">
         <div class="link-left">
