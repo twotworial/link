@@ -28,9 +28,9 @@
     }
     .header-img {
       width: 100%;
+      height: auto;
       border-radius: 16px;
-      height: 150px;
-      background: url('https://cdn.jsdelivr.net/gh/twotworial/blog@main/Header%20Twotworial.webp') center/cover no-repeat;
+      display: block;
     }
     .profile {
       text-align: center;
@@ -95,9 +95,17 @@
 </head>
 <body>
   <div class="container">
-    <div class="header-img"></div>
+    <!-- Ganti div.header-img dengan img + fetchpriority -->
+    <img src="https://cdn.jsdelivr.net/gh/twotworial/blog@main/Header%20Twotworial.webp" 
+         alt="Header Banner" 
+         width="400" height="150"
+         fetchpriority="high" 
+         decoding="async" 
+         class="header-img">
+
     <div class="profile">
-      <img src="https://cdn.jsdelivr.net/gh/twotworial/blog@main/logo-twotworial" alt="Logo">
+      <img src="https://cdn.jsdelivr.net/gh/twotworial/blog@main/logo-twotworial.webp" 
+           alt="Logo" width="100" height="100">
       <h1>Paperpillar</h1>
       <p>UI Design | Branding | Illustrations | Motion Design</p>
     </div>
