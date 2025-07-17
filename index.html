@@ -37,10 +37,19 @@
   }
 }
 </script>
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" as="style">
-  <link rel="preload" href="/aset/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/aset/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/aset/css/all.min.css">
+<!-- Preconnect ke Google Fonts (hemat waktu DNS) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Load Google Fonts langsung -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- Preload Font Awesome fonts -->
+<link rel="preload" href="/aset/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/aset/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Load Font Awesome CSS -->
+<link rel="stylesheet" href="/aset/css/all.min.css">
   <style>
     * {
       margin: 0;
