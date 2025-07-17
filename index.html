@@ -1,36 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Links</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link Bio - Paperpillar Style</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: linear-gradient(180deg, #e4e7fb, #f8f8ff);
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 400px;
+      width: 100%;
+      background: #fff;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+    .header-img {
+      width: 100%;
+      border-radius: 16px;
+      height: 150px;
+      background: url('https://i.ibb.co/vh5k4vW/illustration.jpg') center/cover no-repeat;
+    }
+    .profile {
+      text-align: center;
+      margin-top: -50px;
+    }
+    .profile img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      object-fit: cover;
+    }
+    .profile h1 {
+      font-size: 1.5rem;
+      margin: 10px 0 5px;
+    }
+    .profile p {
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .links-section {
+      margin-top: 20px;
+    }
+    .section-title {
+      font-size: 1rem;
+      margin: 20px 0 10px;
+      font-weight: 600;
+      color: #555;
+    }
+    .link-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #f8f9ff;
+      padding: 14px 16px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: 0.2s;
+    }
+    .link-card:hover {
+      background: #e9edff;
+      transform: scale(1.02);
+    }
+    .link-card i {
+      margin-right: 10px;
+      font-size: 18px;
+      color: #7b61ff;
+    }
+    .link-left {
+      display: flex;
+      align-items: center;
+    }
+  </style>
 </head>
-<body class="bg-gray-900 text-white flex items-center justify-center min-h-screen">
-  <div class="w-full max-w-sm text-center px-6">
-    <!-- Profile -->
-    <img src="https://cdn.jsdelivr.net/gh/twotworial/blog@main/logo-twotworial" alt="Profile" class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-white">
-    <h1 class="text-2xl font-bold">Twotworial</h1>
-    <p class="text-gray-400 mb-6">Bio singkat kamu di sini</p>
-    
-    <!-- Links -->
-    <div class="space-y-4">
-      <a href="https://instagram.com" target="_blank" class="block bg-pink-500 hover:bg-pink-600 text-white py-3 rounded-xl font-semibold transition">
-        Instagram
+<body>
+  <div class="container">
+    <div class="header-img"></div>
+    <div class="profile">
+      <img src="https://i.ibb.co/4J1mZRv/logo.png" alt="Logo">
+      <h1>Paperpillar</h1>
+      <p>UI Design | Branding | Illustrations | Motion Design</p>
+    </div>
+
+    <div class="links-section">
+      <a href="#" class="link-card">
+        <div class="link-left">
+          <i class="fas fa-globe"></i>
+          Website
+        </div>
+        <i class="fas fa-arrow-right"></i>
       </a>
-      <a href="https://tiktok.com" target="_blank" class="block bg-black hover:bg-gray-800 text-white py-3 rounded-xl font-semibold transition">
-        TikTok
+      <a href="#" class="link-card">
+        <div class="link-left">
+          <i class="fas fa-briefcase"></i>
+          Portfolio
+        </div>
+        <i class="fas fa-arrow-right"></i>
       </a>
-      <a href="https://github.com" target="_blank" class="block bg-gray-700 hover:bg-gray-600 text-white py-3 rounded-xl font-semibold transition">
-        GitHub
+      <a href="#" class="link-card">
+        <div class="link-left">
+          <i class="fab fa-dribbble"></i>
+          Dribbble
+        </div>
+        <i class="fas fa-arrow-right"></i>
       </a>
-      <a href="https://notion.so" target="_blank" class="block bg-indigo-500 hover:bg-indigo-600 text-white py-3 rounded-xl font-semibold transition">
-        Notion
+      <a href="#" class="link-card">
+        <div class="link-left">
+          <i class="fas fa-book"></i>
+          Case Studies
+        </div>
+        <i class="fas fa-arrow-right"></i>
       </a>
     </div>
-    
-    <!-- Footer -->
-    <p class="text-gray-500 text-sm mt-6">&copy; 2025 | Made with ❤️</p>
+
+    <div class="section-title">Contact</div>
+    <a href="#" class="link-card">
+      <div class="link-left">
+        <i class="fab fa-whatsapp"></i>
+        WhatsApp
+      </div>
+      <i class="fas fa-arrow-right"></i>
+    </a>
+    <a href="#" class="link-card">
+      <div class="link-left">
+        <i class="fas fa-envelope"></i>
+        Email
+      </div>
+      <i class="fas fa-arrow-right"></i>
+    </a>
+
+    <div class="section-title">Made by us</div>
+    <a href="#" class="link-card">
+      <div class="link-left">
+        <i class="fas fa-child"></i>
+        Dongengin
+      </div>
+      <i class="fas fa-arrow-right"></i>
+    </a>
+    <a href="#" class="link-card">
+      <div class="link-left">
+        <i class="fas fa-moon"></i>
+        Ilhami
+      </div>
+      <i class="fas fa-arrow-right"></i>
+    </a>
   </div>
 </body>
 </html>
