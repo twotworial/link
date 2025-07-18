@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6c65ad;
+      }
+    </style>
+    <image id="image" width="1536" height="1024" xlink:href="C:\Users\redda\Downloads\ChatGPT Image 17 Jul 2025, 13.36.58.png"/>
+  </defs>
+  <ellipse class="cls-1" cx="200" cy="-44.94" rx="267.97" ry="177.59"/>
+  <use transform="translate(-22.92 -22.68) scale(.16)" xlink:href="#image"/>
+  <use transform="translate(181.81 -22.68) scale(.16)" xlink:href="#image"/>
+</svg>
