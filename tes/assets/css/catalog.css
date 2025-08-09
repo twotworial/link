@@ -1,6 +1,0 @@
-.catalog-header{background:#fff;border:1px solid #eee;border-radius:16px;padding:14px 16px;box-shadow:0 4px 16px rgba(0,0,0,.05)}
-.breadcrumb{color:#666;font-size:14px;display:flex;gap:8px;align-items:center;margin-bottom:8px}.page-title{margin:0;font-size:20px;font-weight:700}
-.search-box{margin:12px 0}.filters{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:8px}.select{width:100%;padding:10px 12px;border:1px solid #eee;border-radius:12px;font-size:14px;background:#fff}.tip{color:#888;font-size:12px;margin:6px 2px 12px}
-.list{display:grid;grid-template-columns:1fr 1fr;gap:16px}.badge-new{position:absolute;left:10px;top:10px;background:#111;color:#fff;font-size:11px;padding:4px 8px;border-radius:10px}
-.card-prod{position:relative;border:1px solid #eee;border-radius:16px;overflow:hidden;background:#fff}.card-prod .cover{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}.card-prod .body{padding:10px}.card-prod .price{color:#FF6002;font-weight:700}.card-prod .btn{border:1px solid #eee;background:#fff;border-radius:12px;padding:8px 12px;font-size:12px;text-decoration:none}
-.sticky-nav-spacer{height:16px}
